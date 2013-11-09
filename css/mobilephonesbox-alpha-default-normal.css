@@ -1,0 +1,253 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+/**************************************************
+* --
+* 3. Section content
+* --
+**************************************************/
+/**********************************************
+* 3.2. Zone content
+**********************************************/
+/*******************************************
+* 3.2.2. Content
+*******************************************/
+/* HP blocks: Slideshow */
+
+#block-views-demo-content-slideshow-block-1 {/*zzz :*/
+/*  width: 680px;
+  position:relative;
+  left:250px;
+  top:-27px;
+*/}
+#block-views-demo-content-slideshow-block-1 .event-slider .views-field-nothing,
+#block-views-demo-content-slideshow-block-1 .view-display-id-block_1 .bx-prev,
+#block-views-demo-content-slideshow-block-1 .view-display-id-block_1 .bx-next {
+  border: 0;
+  width: 320px;   }
+#block-views-demo-content-slideshow-block-1 .event-slider .views-field-nothing {
+  background: transparent url("../images/bg_title_slideshow_current_red.png") left top no-repeat;
+  left: 32.5%;
+  /* LTR */ }
+#block-views-demo-content-slideshow-block-1 .bx-prev,
+#block-views-demo-content-slideshow-block-1 .bx-prev:hover {
+  background: transparent url("../images/bg_title_slideshow_previous.png") left top no-repeat;
+  /* LTR */ }
+#block-views-demo-content-slideshow-block-1 .bx-next,
+#block-views-demo-content-slideshow-block-1 .bx-next:hover {
+  background: transparent url("../images/bg_title_slideshow_next.png") left top no-repeat;
+  /* LTR */
+  margin-right: 5px;
+  /* LTR */
+   }
+
+
+
+
+
+/*copied from omega-kickstart-alpha-dephault-normal.css:
+------------------------------------------------------------*/
+#block-views-demo-content-slideshow-block-2 {
+  /* HP blocks: Slideshow */ }
+  #block-views-demo-content-slideshow-block-1 .bx-wrapper,
+  #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window {
+    /*height: 564px !important;
+    max-height: 564px;
+    min-width: 680px; asa modificasem eu - original e 480px la height*/ }
+  #block-views-demo-content-slideshow-block-2 .bx-wrapper .bx-window {
+    overflow: visible !important; }
+  #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li {
+    /*height: 464px;
+    overflow: visible;
+    width: 680px;  asa modificasem eu - original e 480px la height*/ }
+    #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li img {
+      overflow: hidden;
+      /*height: 464px;*/
+      /*width: 680px;*/ }
+  #block-views-demo-content-slideshow-block-2 .views-field-nothing {
+    background: #888;
+    border: 1px solid #CCC;
+    color: #ffffff;
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: -100px;
+    left: 34%; }
+  #block-views-demo-content-slideshow-block-2 .bx-prev,
+  #block-views-demo-content-slideshow-block-2 .bx-next {
+    color: #000000;
+    background: #EEE;
+    border: 1px solid #CCC;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    padding-bottom: 5px; }
+    #block-views-demo-content-slideshow-block-2 .bx-prev:hover,
+    #block-views-demo-content-slideshow-block-2 .bx-next:hover {
+      background: #FFF; }
+  #block-views-demo-content-slideshow-block-2 .views-field-nothing,
+  #block-views-demo-content-slideshow-block-2 .bx-prev,
+  #block-views-demo-content-slideshow-block-2 .bx-next {
+    display: block;
+    height: 80px;
+    text-align: center;
+    text-indent: 0;
+    width: 32%;
+    margin-right: 2%; }
+    #block-views-demo-content-slideshow-block-2 .views-field-nothing span.field-content,
+    #block-views-demo-content-slideshow-block-2 .bx-prev span.field-content,
+    #block-views-demo-content-slideshow-block-2 .bx-next span.field-content {
+      display: block;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      font-size: 21px;
+      height: 80px;
+      line-height: 28px;
+      padding: 10px 25px 0;
+      overflow: hidden; }
+      #page .block-views .view-demo-content-slideshow .views-field-nothing span.field-content em,
+      #page .block-views .view-demo-content-slideshow .bx-prev span.field-content em,
+      #page .block-views .view-demo-content-slideshow .bx-next span.field-content em  
+	  { /*zzz changed #block-views-demo-content-slideshow-block-2 to .block-views .view-demo-content-slideshow 
+	  added #page(#section-content is ok too) in front for css specificity */ 
+        font-family: "Open Sans", sans-serif;
+        font-size: 29px; /*zzz 32->29*/ 
+        font-style: normal;
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase; }
+  #block-views-demo-content-slideshow-block-2 .bx-prev {
+    margin-left: 0;
+    /* LTR */
+    float: left;
+    /* LTR */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* LTR */ }
+  #block-views-demo-content-slideshow-block-2 .bx-next {
+    margin-right: 0;
+    /* LTR */
+    float: right;
+    /* LTR */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* LTR */ }
+
+
+
+
+/* HP blocks: MyGigaStore (zzz duplicate of above HP blocks: Slideshow ) */
+#block-views-demo-content-slideshow-block-2 .event-slider .views-field-nothing,
+#block-views-demo-content-slideshow-block-2 .view-display-id-block_2 .bx-prev,
+#block-views-demo-content-slideshow-block-2 .view-display-id-block_2 .bx-next {
+  border: 0;
+  width: 320px; }
+#block-views-demo-content-slideshow-block-2 .event-slider .views-field-nothing {
+  background: transparent url("../images/bg_title_slideshow_current_red.png") left top no-repeat;
+  left: 32.5%;
+  /* LTR */ }
+#block-views-demo-content-slideshow-block-2 .bx-prev,
+#block-views-demo-content-slideshow-block-2 .bx-prev:hover {
+  background: transparent url("../images/bg_title_slideshow_previous.png") left top no-repeat;
+  /* LTR */ }
+#block-views-demo-content-slideshow-block-2 .bx-next,
+#block-views-demo-content-slideshow-block-2 .bx-next:hover {
+  background: transparent url("../images/bg_title_slideshow_next.png") left top no-repeat;
+  /* LTR */
+  margin-right: 5px;
+  /* LTR */ }
+
+
+
+/**************************************************
+* --
+* 4. Section footer
+* --
+**************************************************/
+/**********************************************
+* 4.1. Zone footer
+**********************************************/
+/**
+* Connect with us
+*/
+#block-menu-menu-social-connection h2 {
+  background: url("../images/bg_block_footer_title.png") left top no-repeat;
+  /* LTR */
+  color: #eeeeee; }
+
+/**************************************************
+* --
+* 5. Commerce specific
+* --
+**************************************************/
+/**********************************************
+* 5.3. Product page
+**********************************************/
+/**
+* Add to cart popin.
+*/
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
+  float: none;
+  min-height: 210px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  /* LTR */ }
+div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display {
+  float: left;
+  /* LTR */ }
+  div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content {
+    padding-bottom: 20px; }
+
+
+/**************************************************
+* --
+* 10. MyGigaStore specific
+* --
+**************************************************/
+/*slide show 
+zzzzzzzzzzzzzz*/
+
+.views-field.views-field-nothing-1 , .pesteslideshow {/*zzz*/
+  height: 500px;
+  width: 960px;
+  top: 0px;
+  left: -10px;
+  background-size:cover;
+}
+
+.header-slider-canvas {
+position: absolute;
+/*top: -15px;
+left: 232px;*/
+width: 680px;
+height: 464px;
+z-index:199;
+}
+.header-slider-canvas .parts {
+position: relative;
+float: left;
+background: url("../images/home-slider.png") no-repeat 0 0;
+height: 464px;
+}
+.header-slider-canvas .part-1 {
+width: 140px;
+z-index: 10;
+}
+.header-slider-canvas .part-2 {
+width: 430px;
+z-index: 9;
+background-position: -140px 0;
+}
+.header-slider-canvas .part-3 {
+width: 110px;
+z-index: 10;
+background-position: -570px 0;
+}
+
+
+.item-list ul.eventslider {
+	margin: 1em 16.6em -2.1em;
+}
+	

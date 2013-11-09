@@ -1,0 +1,19 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal
+ *  and widescreen CSS files as appropriate. */
+
+/**************************************************
+* --
+* 10. MyGigaStore specific
+* --
+**************************************************/
+/*slide show 
+zzzzzzzzzzzzzz*/
+.views-field.views-field-nothing-1, .pesteslideshow {
+  height: /*480px;*/357px;
+  width: /*940px;*/700px;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+}
